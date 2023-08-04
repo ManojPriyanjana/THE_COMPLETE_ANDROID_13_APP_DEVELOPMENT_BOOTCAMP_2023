@@ -13,11 +13,7 @@
         android:theme="@style/Theme.TheHungryDeveloper"
         tools:targetApi="31">
         <activity
-            android:name=".StarterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".StartersActivity"
-            android:exported="false" />
+            android:name=".StarterActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
