@@ -12,8 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheHungryDeveloper"
         tools:targetApi="31">
-        <activity
-            android:name=".StarterActivity"/>
+        <activity android:name=".StarterActivity"
+            android:label="Starters"
+            android:parentActivityName=".MainActivity"
+
+
+
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">
