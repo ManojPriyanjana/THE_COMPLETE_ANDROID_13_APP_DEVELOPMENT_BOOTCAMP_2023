@@ -13,6 +13,6 @@ public class StarterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_starter);
 
         ListView startersList = findViewById(R.id.list_view_starters);
-        
+
     }
 }
