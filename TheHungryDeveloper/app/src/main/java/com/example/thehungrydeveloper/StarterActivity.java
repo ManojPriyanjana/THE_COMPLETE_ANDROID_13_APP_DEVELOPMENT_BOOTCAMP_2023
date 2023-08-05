@@ -27,7 +27,7 @@ public class StarterActivity extends AppCompatActivity {
                 "Sprout and pineapple soup",
                 "Egusi and borscht soup",
                 "Aubergine and egg sushi",
-                "Artichoke and mustard soup", 
+                "Artichoke and mustard soup",
                 "Peppercorn and tamarind soup",
                 "Parsley and celeriac parcels",
                 "Pasta and broccoli soup",
