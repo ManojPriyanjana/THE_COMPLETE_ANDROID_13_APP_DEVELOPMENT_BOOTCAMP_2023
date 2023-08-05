@@ -15,6 +15,10 @@ public class StarterActivity extends AppCompatActivity {
 
         ListView startersList = findViewById(R.id.list_view_starters);
 
+        Dish dishOne = new Dish("Mushroom and tofu maki","Toasted seaweed wrapped around sushi rice...",999);
+
+
+
         String[] dishes = {
                 "Mushroom and tofu maki",
                 "Egg and avocado uramaki",
@@ -39,7 +43,7 @@ public class StarterActivity extends AppCompatActivity {
         };
 
         ArrayAdapter<String> dishesAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dishes);
-    startersList.setAdapter(dishesAdapter);
+        startersList.setAdapter(dishesAdapter);
 
     }
 }
