@@ -12,19 +12,21 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     CardView startersCard;
     CardView mainCards;
-
+    CardView dessertsCard;
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         startersCard = findViewById(R.id.card_view_starters);
         mainCards = findViewById(R.id.card_view_mains);
+        dessertsCard = findViewById(R.id.card_view_desserts);
 
 
         startersCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startersActivityIntent = new Intent(MainActivity.this,StarterActivity.class);
+                Intent startersActivityIntent = new Intent(MainActivity.this, StarterActivity.class);
                 startActivity(startersActivityIntent);
             }
         });
@@ -32,8 +34,16 @@ public class MainActivity extends AppCompatActivity {
         mainCards.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent mainCoursesActivityIntent = new Intent(MainActivity.this,MainCoursesActivity.class);
+                Intent mainCoursesActivityIntent = new Intent(MainActivity.this, MainCoursesActivity.class);
                 startActivity(mainCoursesActivityIntent);
+            }
+        });
+
+        dessertsCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dessertsActivityIntent = new Intent(MainActivity.this,DessertsActivity.class);
+                startActivity(dessertsActivityIntent);
             }
         });
 

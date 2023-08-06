@@ -12,14 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheHungryDeveloper"
         tools:targetApi="31">
-        <activity android:name=".StarterActivity"
+        <activity
+            android:name=".DessertsActivity"
             android:label="Starters"
-            android:parentActivityName=".MainActivity"
-            />
-        <activity android:name=".MainCoursesActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StarterActivity"
+            android:label="Starters"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainCoursesActivity"
             android:label="Main Courses"
-            android:parentActivityName=".MainActivity"/>
-
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
